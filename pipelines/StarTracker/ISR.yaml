@@ -1,0 +1,16 @@
+description: ISR for Rubin StarTrackers on the RSST
+instrument: lsst.obs.rubinGenericCamera.StarTracker
+
+tasks:
+  isr:
+    class: lsst.ip.isr.IsrTask
+    config:
+      doBias: false
+      doCrosstalk: false
+      doVariance: false
+      doLinearize: false
+      doDefect: false
+      doDark: false
+      doFlat: false
+      doFringe: false
+
